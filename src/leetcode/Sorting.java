@@ -9,6 +9,7 @@ public class Sorting {
                 System.out.print(arr[j]);
                 if (arr[i]<arr[j]){
                     k =1;
+                    //i will add the final logic here later, just not in the mood rn
                 }
             }
             System.out.println();
