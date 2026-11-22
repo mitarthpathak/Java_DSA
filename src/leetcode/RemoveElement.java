@@ -14,8 +14,8 @@ public class RemoveElement {
                 i--;
             }
         }
-        for(int j:nums){
-            System.out.println(j);
+        for (int k = 0; k < length; k++) {
+            System.out.println(nums[k]);
         }
     }
 }
