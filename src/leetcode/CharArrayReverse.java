@@ -10,17 +10,23 @@ public class CharArrayReverse {
             i++;
         }
         System.out.println("the original is:");
-        i= 0;
-        while (i<s.length){
-            System.out.print(s[i]+ ",");
+        i = 0;
+        System.out.print("[");
+        while (i < s.length) {
+            System.out.print("\"" + s[i] + "\"");
+            if (i < s.length - 1) System.out.print(", ");
             i++;
         }
-        System.out.println();
-        System.out.println("the reversed is:" );
-        i= 0;
-        while (i<reverse.length){
-            System.out.print(reverse[i]+ ",");
+        System.out.println("]");
+
+        System.out.println("the reversed is:");
+        i = 0;
+        System.out.print("[");
+        while (i < reverse.length) {
+            System.out.print("\"" + reverse[i] + "\"");
+            if (i < reverse.length - 1) System.out.print(", ");
             i++;
         }
+        System.out.println("]");
     }
 }
