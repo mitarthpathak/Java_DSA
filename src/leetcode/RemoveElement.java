@@ -11,6 +11,7 @@ public class RemoveElement {
                     nums[k]=nums[k+1];
                 }
                 length--;
+                i--;
             }
         }
         for(int j:nums){
