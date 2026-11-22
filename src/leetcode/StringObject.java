@@ -1,7 +1,7 @@
 package leetcode;
 
 import java.util.Scanner;
-
+//just for the general knowledge: STRINGS ARE IMMUTABLE
 public class StringObject {
     public static void main(String[] args){
 //        String name = "Mitarth pathak";
