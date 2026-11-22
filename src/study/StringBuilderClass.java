@@ -1,5 +1,5 @@
-package leetcode;
-import java.util.*;
+package study;
+
 public class StringBuilderClass {
     public static void main(String[] args){
         StringBuilder name = new StringBuilder("mitarth");

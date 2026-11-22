@@ -3,7 +3,7 @@ import java.util.*;
 public class RemoveElement {
     public static void main(String[] args){
         int[] nums = new int[]{3, 2, 2, 3};
-        int val = 2;
+        int val = 3;
         int length = nums.length;
         for (int i =0;i<length;i++){
             if (val == nums[i]){
