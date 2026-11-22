@@ -7,6 +7,10 @@ public class ReverseAString {
 
 
     }
+    public static void reverseWithStringBuilder(StringBuilder name){
+        String reversedName = name.reverse().toString();
+        System.out.println(reversedName);
+    }
     public static void reverseManually(String word){
         String reversedWord = "";
         int length = word.length();
