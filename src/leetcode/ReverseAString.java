@@ -2,9 +2,9 @@ package leetcode;
 import java.util.*;
 public class ReverseAString {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        String word = sc.nextLine();
-
+        //Scanner sc = new Scanner(System.in);
+        StringBuilder name = new StringBuilder("mitarth");
+        //use the below functions as required
 
     }
     public static void reverseWithStringBuilder(StringBuilder name){
