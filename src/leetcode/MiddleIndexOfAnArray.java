@@ -6,7 +6,7 @@ public class MiddleIndexOfAnArray {
         int len = nums.length;
         int sumleft = 0;
         int sumright = 0;
-        int ans =0;
+        int ans =-1;
         if (len == 1){
             ans = 0;
             System.out.println(ans);
@@ -29,10 +29,7 @@ public class MiddleIndexOfAnArray {
             sumright =0;
             
         }
-        if (ans==0){
-            ans = -1;
-            System.out.println("cannot find any middle index" + ans);
-        }
+        
         }
         System.out.println(ans);;
     }
