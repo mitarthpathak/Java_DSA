@@ -2,7 +2,8 @@ package study;
 
 public class GenericsInJava {
     public static void main(String[] args){
-        Print<Integer> print = new Print<>(78);
+        Print<Integer> printInteger = new Print<>(78);
+        Print<String> printString = new Print<>("mitarth");
     }
     
 }
